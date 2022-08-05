@@ -7,7 +7,7 @@ import Homepage from './Homepage'
 import Projects from './Projects'
 
 
-export default function Index() {
+export default function Home() {
   return (
     <div className='p-4'>
         <Header/>
