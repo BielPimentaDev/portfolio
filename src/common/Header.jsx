@@ -14,7 +14,7 @@ export default function Header() {
     <header className='fixed  top-0 right-0 w-screen z-10 bg-black-100 flex justify-between md:justify-around p-8 md:p-6 items-center'>
       <h1 className='text-blue font-semibold text-2xl'>Portfolio</h1>
       <nav className='hidden md:block'>
-        <ul className='flex gap-4 '>
+        <ul className='flex gap-8 '>
           {
             items.map(item=>{
               return(

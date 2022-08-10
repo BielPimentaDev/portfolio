@@ -4,6 +4,7 @@ import criarte from '../assets/criarte.png'
 import auctions from '../assets/auctions_thumb.png'
 import pepper8 from '../assets/pepper8.png'
 import rachi from '../assets/rachi.png'
+import foodip from '../assets/foodip.png'
 import { ButtonBlue } from '../common/Button'
 import {FiLink} from 'react-icons/fi'
 
@@ -13,29 +14,36 @@ export default function Projects() {
             name: "Criarte",
             techs: ["React", "Python", "MySql"],
             picture: criarte,
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum ipsam repellat nesciunt, aliquam autem aut non quaerat neque, dignissimos maiores illum blanditiis nobis odit atque distinctio iure eveniet, qui quam.",
+            description: "Desenvolvimento de uma plataforma que organiza e gerencia os pedidos de uma empresa com base na demanda dos clientes.",
             link: 'https://criarte.netlify.app/'
         },
         {
             name: "Auctions",
             techs: ["React", "Python", "MySql"],
             picture: auctions,
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum ipsam repellat nesciunt, aliquam autem aut non quaerat neque, dignissimos maiores illum blanditiis nobis odit atque distinctio iure eveniet, qui quam.",
+            description: "Este aplicativo varre os maiores sites de leilões do Brasil e retorna as informações mais relevantes sobre cada leilão.",
             link: 'https://botdeleiloes.netlify.app/'
         },
         {
             name: "Pepper8",
-            techs: ["React", "Python", "MySql"],
+            techs: ["React", "Java Script"],
             picture: pepper8,
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum ipsam repellat nesciunt, aliquam autem aut non quaerat neque, dignissimos maiores illum blanditiis nobis odit atque distinctio iure eveniet, qui quam.",
+            description: "Uma página para uma empresa de freelances.",
             link: 'https://pepper8.netlify.app/'
         },
         {
             name: "Rachi",
-            techs: ["React", "Python", "MySql"],
+            techs: ["React", "Java Script"],
             picture: rachi,
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum ipsam repellat nesciunt, aliquam autem aut non quaerat neque, dignissimos maiores illum blanditiis nobis odit atque distinctio iure eveniet, qui quam.",
-            link: ''
+            description: "Uma pagina para uma empresa fictícia.",
+            link: 'https://rachi-example.netlify.app'
+        },
+        {
+            name: "Foodip",
+            techs: ["React", "Java Script"],
+            picture: foodip,
+            description: "Uma pagina para uma empresa do ramo de alimentação. ",
+            link: 'https://food-example-app.netlify.app'
         },
     ]
   return (

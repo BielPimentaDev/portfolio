@@ -11,7 +11,7 @@ export default function Homepage() {
         
         <div>
             <Title text="OLÁ, EU SOU"/>
-            <h2 className='text-blue font-semibold text-4xl uppercase my-4'>Gabriel Pimenta</h2>
+            <h2 className='text-blue font-semibold lg:text-4xl text-3xl uppercase my-4'>Gabriel Pimenta</h2>
             <Title text="UM DESENVOLVEDOR FRONT-END"/>
 
             <div className='flex gap-8 mt-8 justify-center items-center'>

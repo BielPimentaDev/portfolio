@@ -7,33 +7,21 @@ export default function Experience() {
         Pepper8 : {
         title: 'Pepper8',
         date: 'Julho 2022 - atual',
-        description: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laboriosam numquam, impedit aperiam ea laudantium eos voluptatem assumenda possimus voluptatibus, ab quidem? Ut ipsum perferendis animi tempore ullam iste! Enim!",
+        description: "Empresa de desenvolvimento de projetos freelancer em que atuo com uma equipe para desenvolver de forma profissional e ágil qualquer ideia.",
         subtitle: 'Empresa Freelancer'
         },
-        UFF : {
+        "Experiência acadêmica" : { 
         title: 'UFF - SISTEMAS DE INFORMACAO',
         date: 'Julho 2022 - atual',
-        description: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laboriosam numquam, impedit aperiam ea laudantium eos voluptatem assumenda possimus voluptatibus, ab quidem? Ut ipsum perferendis animi tempore ullam iste! Enim!",
-        subtitle: 'Empresa Freelancer'
-        },
-        Workana : {
-        title: 'Workanas',
+        description: "Estou cursando o curso de Sistemas de Informação na Universidade Federal Fluminense - UFF",
+        subtitle: 'Empresa Freelancer'},
+
+        Freelancer : {
+        title: 'UFF - SISTEMAS DE INFORMACAO',
         date: 'Abril 2022 - atual',
-        description: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laboriosam numquam, impedit aperiam ea laudantium eos voluptatem assumenda possimus voluptatibus, ab quidem? Ut ipsum perferendis animi tempore ullam iste! Enim!",
+        description: "Iniciei minha careira profissional atuando como freelancer independente, atuando para conhecidos ou em plataformas como Workana",
         subtitle: 'Empresa Freelancer'
-        },
-        Drivecrpito : {
-        title: 'Workanas',
-        date: 'Abril 2022 - atual',
-        description: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laboriosam numquam, impedit aperiam ea laudantium eos voluptatem assumenda possimus voluptatibus, ab quidem? Ut ipsum perferendis animi tempore ullam iste! Enim!",
-        subtitle: 'Empresa Freelancer'
-        },
-        CRIART : {
-        title: 'Workanas',
-        date: 'Abril 2022 - atual',
-        description: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laboriosam numquam, impedit aperiam ea laudantium eos voluptatem assumenda possimus voluptatibus, ab quidem? Ut ipsum perferendis animi tempore ullam iste! Enim!",
-        subtitle: 'Empresa Freelancer'
-        },
+        }
     }
   return (
     <div className='my-32 md:px-16'>

@@ -28,7 +28,9 @@ export default function About() {
         <div className='flex flex-col gap-8 justify-around md:ml-8 md:w-[50%]'>
             <Title text="SOBRE MIM"/>
             <h3 className='text-white font-semibold text-xl'>Rio de Janeiro, Brasil</h3>
-            <p className='text-graylight font-normal md:w-[70%]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, nobis perferendis totam doloribus assumenda, commodi rem veniam deserunt maiores, omnis nostrum amet nemo eaque earum saepe alia Lorem, ipsum dolor sit amet consectetur adipisicing elit. sint autem, repellat rerum amet a deleniti.</p>
+            <p className='text-graylight font-normal md:w-[70%]'>
+                Sou um desenvolvedor front-end, apaixonado por todo o processo de desenvolvimento, desde a parte de design e prototipagem das aplicações, até a construção das telas e da lógica por tras delas. Atualmente curso Sistemas de informação na UFF e sou freelancer.
+                </p>
             <div className='flex justify-between md:w-[60%] px-8 '>
                 {socialMedias.map(item=>{
                     return(
