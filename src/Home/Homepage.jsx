@@ -7,7 +7,7 @@ import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 
 export default function Homepage() {
   return (
-    <div className='flex pt-36 pb-16  bg-black-100 justify-center items-center'>
+    <div className='flex pt-36 pb-16  bg-black-100 justify-between   items-center'>
         
         <div>
             <Title text="OLÁ, EU SOU"/>

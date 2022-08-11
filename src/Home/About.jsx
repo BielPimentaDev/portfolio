@@ -23,9 +23,9 @@ export default function About() {
         }
     ]
   return (
-    <div className='flex gap-32  py-8  justify-around items-center'>
-        <img src={eu} className="border-l-4 border-blue w-[370px] h-[370px] md:block hidden ml-16"/>
-        <div className='flex flex-col gap-8 justify-around md:ml-8 md:w-[50%]'>
+    <div className='flex gap-32  py-8  justify-between items-center lg:px-16'>
+        <img src={eu} className="border-l-4 border-blue w-[370px] h-[370px] md:block hidden "/>
+        <div className='flex flex-col gap-8 justify-around md:ml-8 md:w-[40%]'>
             <Title text="SOBRE MIM"/>
             <h3 className='text-white font-semibold text-xl'>Rio de Janeiro, Brasil</h3>
             <p className='text-graylight font-normal md:w-[70%]'>

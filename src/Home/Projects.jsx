@@ -49,7 +49,7 @@ export default function Projects() {
   return (
     <div className='my-8 md:px-16'>
         <Title text="PROJETOS"/>
-        <div className='grid md:grid-cols-2 gap-y-32 mt-16'>
+        <div className='grid md:grid-cols-2 gap-y-32 gap-x-32 mt-16 content-between'>
             {
                 projects.map(({name, techs, picture, description, link}) =>{
                     return(
