@@ -26,7 +26,7 @@ export default function Experience() {
   return (
     <div className='my-32 md:px-16'>
         <Title text="EXPERIENCIA"/>
-        <div className='flex my-8  md:gap-48 gap-16 md:flex-row flex-col'>
+        <div className='flex my-8  md:gap-48 gap-16 md:flex-row flex-col justify-evenly'>
             <ul className='flex md:flex-col gap-8 mr-4 mb-8 overflow-auto'>
                 {
                     Object.keys(experiences).map(key=>{
@@ -40,7 +40,7 @@ export default function Experience() {
                
             </ul>
 
-        <div className='flex flex-col gap-8 md:w-[40%] '>
+        <div className='flex flex-col gap-8 md:w-[40%] mr-48'>
 
    {
         <>
